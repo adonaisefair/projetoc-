@@ -4,6 +4,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World,let's get it aaaa");
 app.MapGet("/", () => "Teste na api,criando....");
+app.MapGet("/", () => "Teste 2 na api,criando....");
 
 app.Run();
 
